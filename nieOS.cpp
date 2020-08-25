@@ -105,7 +105,7 @@ int main()
                 std::cout << "Invalid input or operation not implemented yet.";
             }
         }
-        else if (command == "dir") {
+        else if (command == "dir" || command == "ls") {
             std::cout << "Listing directory of N:/\n";
             sleep(200);
             std::cout << "15:55  02.08.2020    <FOLDER>    OS\n";
